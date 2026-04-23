@@ -123,3 +123,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // Affiche le header au chargement initial
   header.classList.add("visible");
 });
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll("img").forEach(img => {
+    img.setAttribute("loading", "lazy");
+  });
+});
