@@ -440,3 +440,7 @@ header nav ul li a:hover {
     transform: scale(1.2); /* Zoom léger au survol */
     opacity: 0.8; /* Réduction de l'opacité pour un effet visuel */
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
